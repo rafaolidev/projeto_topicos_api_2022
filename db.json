@@ -1,0 +1,140 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "nome": "Adm Escolar",
+      "email": "admin@admin",
+      "type": "admin",
+      "senha": "admin"
+    },
+    {
+      "nome": "Adm Escolssar",
+      "email": "admin@assdmin",
+      "type": "adssmin",
+      "senha": "admsssin",
+      "id": 2
+    },
+    {
+      "nome": "Adm Escolsssssar",
+      "email": "adminss@assdmin",
+      "type": "adsssssssmin",
+      "senha": "admsssissn",
+      "id": 3
+    }
+  ],
+  "valores": [
+    {
+      "id": 1,
+      "mesalidade": "1250,00"
+    }
+  ],
+  "lacamentos": [
+    {
+      "status": "pendente",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "id_usuario": "1",
+      "valor": "1250,00",
+      "descricao": "mensalidade",
+      "status": "pendente"
+    },
+    {
+      "id": 3,
+      "id_usuario": "1",
+      "valor": "1250,00",
+      "descricao": "mensalidade",
+      "status": "pendente"
+    },
+    {
+      "id_usuario": "1",
+      "valor": "1250,00",
+      "descricao": "mensalidade",
+      "status": "pendente",
+      "id": 6
+    }
+  ],
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Pedrim o terror",
+      "email": "pedro@pedro.com",
+      "type": "aluno",
+      "turma": "1a"
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Não gosto de Matematica",
+      "email": "mate@nao.com",
+      "senha": "1233432",
+      "materia": "matematica",
+      "type": "professor",
+      "turma": "1a"
+    }
+  ],
+  "notas": [
+    {
+      "id": 1,
+      "nota": 10,
+      "materia": "matematica",
+      "id_professor": 1,
+      "id_aluno": 1
+    }
+  ],
+  "trabalhos": [
+    {
+      "id": 1,
+      "data_entrega": "23/06/2022",
+      "ativo": 1,
+      "materia": "matematica",
+      "nome_professor": "Não gosto de Matematica",
+      "tema": "calculo",
+      "pontos": 10
+    }
+  ],
+  "entrega_trabalhos": [
+    {
+      "id": 1,
+      "data_entrega": "23/06/2022",
+      "id_trabalho": 1,
+      "tema": "calculo",
+      "arquivo": "file"
+    }
+  ],
+  "notas_trabalhos": [
+    {
+      "id": 1,
+      "nota": 10,
+      "materia": "matematica",
+      "id_professor": 1,
+      "id_aluno": 1,
+      "id_trabalho": 1
+    }
+  ],
+  "materias_turma": [
+    {
+      "id": 1,
+      "id_turma": 1,
+      "materia": "matematica"
+    }
+  ],
+  "materias": [
+    {
+      "id": 1,
+      "nome": "matematica"
+    },
+    {
+      "nome": "fisica",
+      "id": 2
+    }
+  ],
+  "turmas": [
+    {
+      "id": 1,
+      "nome": "1a"
+    }
+  ]
+}
